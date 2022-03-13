@@ -21,17 +21,17 @@ int main(void)
 			{
 				putchar(e);
 				putchar(i);
-			f (i == 57 && e == 56)
-			{
-			break;
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
-		putchar(',');
-	putchar(' ');
-			}
-		i++;
+			i++;
 		}
-	e++;
+		e++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
